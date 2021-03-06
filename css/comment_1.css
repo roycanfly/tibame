@@ -1,0 +1,424 @@
+
+/* common use */
+
+img{
+    vertical-align: bottom;
+}
+
+a{
+    color: black;
+}
+
+div.more{
+    width: 100%;
+    margin: 30px 0 10px;
+    font-size: 18px;
+}
+
+header.header div.line1 nav.nav ul li:nth-child(2) a{
+    border-bottom: 2px solid #F5A444;
+}
+
+/* main */
+
+div.main{
+    margin: 0 auto;
+}
+
+    /* title */
+    
+div.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    padding: 10px 10px 10px 0;
+}
+
+div.title div.title_icon i{
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+div.main div.title > h3{
+    margin-left: 20px;
+}
+
+div.title h3::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    border: 1px solid black;
+    transform: rotate(120deg);
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+    /* main_wrap */
+
+div.main_wrap{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+}
+
+div.comment_wrap{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0 20px 20px;
+    margin-right: 60px;
+}
+
+div.comment_title{
+    margin: 0 0 20px;
+}
+
+div.comment_title h3{
+    text-align: left;
+}
+
+div.comment_img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.comment_img img{
+    width: 100%;
+}
+
+div.comment_info{
+    margin: 0 0 50px;
+}
+
+div.comment_info div{
+    margin: 10px 0;
+}
+
+div.comment_type{
+    display: flex;
+}
+
+div.comment_type :first-child{
+    background-color: rgb(241, 185, 132);
+    color: #fff;
+    padding: 5px;
+}
+
+div.comment_type :nth-child(2){
+    padding: 5px;
+}
+
+div.pic{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 20px 0;
+}
+
+div.pic img{
+    width: 300px;
+    height: 200px;
+}
+
+div.pic span{
+    text-align: center;
+    color: rgb(180, 180, 180);
+}
+
+div.text{
+    /* border: 1px solid blueviolet; */
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+div.text h3{
+    margin: 50px 0 0;
+}
+
+div.text p{
+    margin: 20px 0;
+    line-height: 40px;
+}
+
+    /* aside */
+
+aside.aside{
+    /* border: 1px solid blue; */
+    position: relative;
+    padding: 20px;
+    background-color: #F7F0F0;
+}
+
+div.aside_slide{
+    position: absolute;
+    top: 300px;
+    left: -30px;
+    width: 30px;
+    height: 180px;
+    background-color:var(--bt-color--);
+    writing-mode: vertical-lr;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* aside_slide增加寬度使用 */
+
+div.new{
+    margin: 0 0 60px;
+}
+
+div.aside_title{
+    margin: 10px;
+    text-align: center;
+}
+
+div.aside_block{
+    margin: 20px 0;
+}
+
+div.aside_item{
+    display: flex;
+}
+
+div.aside_inner_left{
+    margin: 0 10px 0 0;
+}
+
+div.aside_inner_left img{
+    /* width: 100%; */
+    width: 120px;
+    height: 100px;
+    object-fit: contain;
+}
+
+div.aside_inner_right{
+    margin-top: 8px;
+}
+
+div.aside_inner_right :first-child{
+    width: 50px;
+    background-color: rgb(241, 185, 132);
+    color: #fff;
+    text-align: center;
+}
+
+div.aside_inner_right a:hover{
+    color: #aaa;
+}
+
+div.bt_place{
+    text-align: right;
+}
+
+button.buy_bt{
+    height: 30px;
+    background-color:var(--bt-color--);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button.buy_bt a{
+    padding: 10px 20px;
+}
+
+/* @media */
+
+
+@media screen and (min-width: 1440px){
+    div.main{
+        width: 1360px;
+        /* border: 1px solid #000; */
+    }
+
+    div.aside_slide{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px){
+    div.main{
+        width: 1140px;
+        /* border: 1px solid red; */
+    }
+
+    div.aside_slide{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    div.main{
+        width: 960px;
+        /* border: 1px solid orange; */
+    }
+
+    div.comment_wrap{
+        margin: 0 auto;
+    }
+
+    aside.aside{
+        position: fixed;
+        width: 350px;
+        right: -350px;
+        top: 0;
+        padding: 0 20px;
+        transition: all .5s ease;
+        z-index: 9;
+    }
+
+    .add{
+        right: 0 !important;
+    }
+
+    div.aside_wrap{
+        overflow: scroll;
+        height: 100vh;
+    }
+
+    div.aside_wrap::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    div.main{
+        width: 720px;
+        /* border: 1px solid yellow; */
+    }
+
+    div.comment_wrap{
+        margin: 0 auto;
+    }
+
+    aside.aside{
+        position: fixed;
+        width: 350px;
+        right: -350px;
+        top: 0;
+        padding: 0 20px;
+        transition: all .5s ease;
+        z-index: 9;
+    }
+
+    .add{
+        right: 0 !important;
+    }
+
+    div.aside_wrap{
+        overflow: scroll;
+        height: 100vh;
+    }
+
+    div.aside_wrap::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    div.main{
+        width: 540px;
+        /* border: 1px solid green; */
+    }
+
+    div.comment_wrap{
+        margin: 0 auto;
+    }
+
+    aside.aside{
+        position: fixed;
+        width: 300px;
+        right: -300px;
+        top: 0;
+        padding: 0 20px;
+        transition: all .5s ease;
+        z-index: 9;
+    }
+
+    .add{
+        right: 0 !important;
+    }
+
+    div.aside_wrap{
+        overflow: scroll;
+        height: 100vh;
+    }
+
+    div.aside_wrap::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px){
+    div.main{
+        width: auto;
+        /* border: 1px solid blue; */
+        padding: 0 10px;
+    }
+    div.comment_wrap{
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+    div.pic{
+        padding: 0;
+        margin: 0 auto;
+        float: none;
+    }
+
+    div.pic img{
+        margin: 0 auto;
+    }
+
+    aside.aside{
+        position: fixed;
+        width: 300px;
+        right: -300px;
+        top: 0;
+        padding: 0 20px;
+        transition: all .5s ease;
+        z-index: 9;
+    }
+
+    .add{
+        right: 0 !important;
+    }
+
+    div.aside_wrap{
+        overflow: scroll;
+        height: 100vh;
+    }
+
+    div.aside_wrap::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 376px){
+    div.main{
+        margin: auto;
+        /* border: 1px solid purple; */
+    }
+
+    div.pic{
+        padding: 0;
+        margin: auto;
+        float: none;
+    }
+
+    aside.aside{
+        position: fixed;
+        width: 280px;
+        right: -280px;
+        top: 0;
+        padding: 0 20px;
+        transition: all .5s ease;
+        z-index: 9;
+    }
+
+    .add{
+        right: 0 !important;
+    }
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayTicket</title>
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/buy_ticketsy.css">
+    <link rel="stylesheet" href="../css/hamburger.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/pickadate.js-3.6.2/lib/themes/default.css">
+    <link rel="stylesheet" href="../vendors/pickadate.js-3.6.2/lib/themes/default.date.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="line1">
+            <div class="logo"><a href="../index.html"><img src="../img/logo0528.png" alt="logo"></a></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="../html/info.html">戲劇資訊</a></li>
+                    <li><a href="../html/comment.html">戲劇評論</a></li>
+                    <li><a href="../html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="../html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="../html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="../html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger hamburger--elastic">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+            <div class="header_icon">
+                <div><a href="#"><i class="fas fa-search"></i></a></div>
+                <div><a href="#"><i class="fas fa-user"></i></a></div>
+                <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+        </div>
+        <div class="line2">
+            <div class="nav_slide">
+                <ul>
+                    <li><a href="../html/info.html">戲劇資訊</a></li>
+                    <li><a href="../html/comment.html">戲劇評論</a></li>
+                    <li><a href="../html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="../html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="../html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="../html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <div class="main">
+        <div class="title">
+            <div class="title_icon"><i class="fas fa-ticket-alt"></i></div>
+            <h2><a href="">直接購票</a></h2>
+        </div>
+        <div class="hot_show">
+            <h4>現正熱賣中</h4>
+            <div class="show_block">
+                <div class="show_pic">
+                    <a href="../html/info_1.html"><img src="../img/bequite.jpg" alt=""></a>
+                </div>
+                <div class="show_text">
+                    <h3><a href="../html/info_1.html">大家安靜</a></h3>
+                    <p>2020/06/09</p>
+                </div>
+            </div>
+            <div class="show_block">
+                <div class="show_pic">
+                    <a href="../html/info_1.html"><img src="../img/crack01.jpg" alt=""></a>
+                </div>
+                <div class="show_text">
+                    <h3><a href="../html/info_1.html">夾縫轍痕</a></h3>
+                    <p>2020/06/09</p>
+                </div>
+            </div>
+            <div class="show_block">
+                <div class="show_pic">
+                    <a href="../html/info_1.html"><img src="../img/mac01.jpg" alt=""></a>
+                </div>
+                <div class="show_text">
+                    <h3><a href="../html/info_1.html">馬克白</a></h3>
+                    <p>2020/06/10</p>
+                </div>
+            </div>
+        </div>
+        <!-- notice -->
+        <div class="notice_member">
+            <div class="notice_block">
+                <h3>購票須知</h3>
+                <div class="notice_text">
+                    <ol class="notice_list">
+                        <li>本網站需登入會員後，方可進行線上訂票。</li>
+                        <li>進行訂票時，請詳細確認訂購資訊，以免誤訂其他日期場次。</li>
+                        <li>訂票完成後，可善加利用「訂單查詢」功能進行確認系統是否成功收到訂單，以免屆時無法順利取票，影響自身權益。</li>
+                        <li>取消訂票，須於開演前三日，自行上網取消，若訂票未完成取消，系統仍將扣除該筆款項，不作退回。</li>
+                        <li>取消訂票，不提供單張取消之處理，僅受理整筆訂單取消之作業，取消訂單後原有座位即不作保留。</li>
+                    </ol>
+                </div>
+            </div>
+            <form class="notice_block member">
+                <h3>會員登入</h3>
+                <div class="member_login">
+                    <div class="login_block">
+                        <div class="account">帳號：</div><input type="text" placeholder="請輸入帳號"><br>
+                        <div class="password">密碼：</div><input type="password" placeholder="請輸入密碼">
+                    </div>
+                    <div class="read_notice">
+                        <input type="checkbox" class="confirm" id="ok" required>
+                        <label for="ok">我已詳細閱讀並確認「購票須知」內容</label>
+                    </div>
+                    <div class="member_bt">
+                        <button type="submit">登入</button>
+                        <button type="submit">註冊</button>
+                    </div>
+                </div>
+                <div class="forget">
+                    <div class="forget_ac">忘記帳號</div>
+                    <div class="forget_pw">忘記密碼</div>
+                </div>
+            </form>
+        </div>
+        <div class="buy_step">
+            <div class="buy_wrap">
+                <div class="buy_left">
+                    <div class="choose_left">快速訂票</div>
+                    <div class="pay_left">付款方式</div>
+                    <div class="ship_left">運送方式</div>
+                    <div class="confirm_left">資訊確認</div>
+                </div>
+                <div class="buy_right">
+                    <div class="choose_right">
+                        <div class="buy_block">
+                            <h3>快速訂票</h3>
+                            <form method="POST" class="buy_option">
+                                <select class="show_now">
+                                    <option value="1">--請選擇劇場--</option>
+                                    <option value="2">國家戲劇院</option>
+                                    <option value="3">台北城市舞台</option>
+                                    <option value="4">台北藝術大學</option>
+                                    <option value="5">水源劇場</option>
+                                </select>
+                                <select class="show_now">
+                                    <option value="1">--請選擇劇名--</option>
+                                    <option value="2">大家安靜</option>
+                                    <option value="3">夾縫轍痕</option>
+                                    <option value="4">馬克白</option>
+                                    <option value="5">半島風聲 相放伴</option>
+                                    <option value="6">第十二夜</option>
+                                </select>
+                                <select class="show_now">
+                                    <option value="1">--請選擇場次--</option>
+                                    <option value="2">午場</option>
+                                    <option value="3">晚場</option>
+                                </select>
+                                <select class="show_now">
+                                    <option value="1">--請選擇數量--</option>
+                                    <option value="2">1</option>
+                                    <option value="3">2</option>
+                                    <option value="4">3</option>
+                                    <option value="5">4</option>
+                                </select class="show_now">
+                                <input class="datepicker show_now" value="--請選擇日期--">
+                                <input class="seat show_now" value="--請選擇座位--">
+                            </form>
+                            <div class="buy_info_block">
+                                <div class="buy_info">
+                                    <div>劇場 : 台北城市舞台</div>
+                                    <div>劇名 : 大家安靜</div>
+                                    <div>場次 : 晚上七點半</div>
+                                    <div>數量 : 1張</div>
+                                    <div>座位 : A1</div>
+                                    <div>日期 : 2020/07/10</div>
+                                </div>
+                                <div class="buy_info_pic"><img src="../img/bequite0.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment_right">
+                        <div class="payment_block">
+                            <h3>付款方式</h3>
+                            <form method="POST" class="payment_form">
+                                <div class="credit_card">
+                                    <i class="far fa-credit-card"></i>
+                                    <h3>線上信用卡付款</h3>
+                                    <p>可用VISA/Master/JCB國內外各家銀行信用卡，進行線上刷卡付款</p>
+                                </div>
+                                <div class="c_store">
+                                    <i class="fas fa-store-alt"></i>
+                                    <h3>超商代碼繳費</h3>
+                                    <p>經系統取得專屬付款代碼，至國內四大超商持代碼繳費，繳費後系統自動對帳</p>
+                                </div>
+                                <div class="atm">
+                                    <i class="fas fa-donate"></i>
+                                    <h3>ATM轉帳</h3>
+                                    <p>經系統取得專屬付款代碼，提供郵局＆銀行帳號匯款，繳費後系統自動對帳</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="ship_right">
+                        <div class="ship_block">
+                            <h3>運送方式</h3>
+                            <form method="POST" class="ship_form">
+                                <div>
+                                    <i class="fas fa-truck"></i>
+                                    <h3>宅配到府</h3>
+                                    <p>產品由黑貓宅急便運送至買家所填寫之地址</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-store-alt"></i>
+                                    <h3>超商取貨</h3>
+                                    <p>可至國內四大超商，全家/7-11/萊爾富/OK Mark等超商取貨</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-mail-bulk"></i>
+                                    <h3>中華郵政</h3>
+                                    <p>產品由中華郵政運送至買家所填寫之地址</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="confirm_right">
+                        <div class="confirm_block">
+                            <h3>資訊確認</h3>
+                            <form method="POST" class="confirm_form">
+                                <div class="confirm_top">
+                                    <div class="confirm_info">
+                                        <div>地點 : 台北城市舞台</div>
+                                        <div>劇名 : 大家安靜</div>
+                                        <div>日期 : 2020/07/10</div>
+                                        <div>場次 : 晚上七點半</div>
+                                        <div>數量 : 1張</div>
+                                        <div>座位 : A1</div>
+                                    </div>
+                                    <div class="confirm_info_pic"><img src="../img/bequite0.jpg" alt=""></div>
+                                </div>
+                                <div class="confirm_bottom">
+                                    <div>付款方式 : 線上信用卡付款</div>
+                                    <div>運送方式 : 宅配</div>
+                                    <div>運送地址 : 桃園市中壢區中大路300號國立中央大學(工程二館側面/ 資策會大樓)</div>
+                                </div>
+                                <button type="submit" class="confirm_bt">確認購買</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_wrap">
+            <div class="footer_icon">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contect">
+                <div class="phone">聯絡電話:(03)425-7387</div>
+                <div class="email">Email : service@tibame.com</div>
+                <div class="copyright">
+                    <a href="../index.html">
+                        <em class="em_play">Play</em><em class="em_ticket">Ticket</em>
+                    </a>&nbsp;&nbsp;&copy;&nbsp;copyright
+                </div>
+            </div>
+            <div class="sub">
+                <form class="sub">
+                    <input type="text" placeholder="請輸入email">
+                    <button type="submit">訂閱</button>
+                </form>
+
+                <div>免費訂閱電子報</div>
+            </div>
+        </div>
+        <button type="button" class="gotop">top</button>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/de2e8520b2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../vendors/pickadate.js-3.6.2/lib/legacy.js"></script>
+    <script src="../vendors/pickadate.js-3.6.2/lib/picker.js"></script>
+    <script src="../vendors/pickadate.js-3.6.2/lib/picker.date.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/buy_tickets.js"></script>
+</body>
+</html>

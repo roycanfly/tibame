@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayTicket</title>
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./css/hamburger.css">
+    <link rel="stylesheet" href="./vendors/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendors/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./vendors/pickadate.js-3.6.2/lib/themes/classic.css">
+    <link rel="stylesheet" href="./vendors/pickadate.js-3.6.2/lib/themes/classic.date.css">
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="line1">
+            <div class="logo"><a href="index.html"><img src="img/logo0528.png" alt="logo"></a></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="./html/info.html">戲劇資訊</a></li>
+                    <li><a href="./html/comment.html">戲劇評論</a></li>
+                    <li><a href="./html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="./html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="./html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="./html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger hamburger--elastic">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+            <div class="header_icon">
+                <div><a href="#"><i class="fas fa-search"></i></a></div>
+                <div><a href="#"><i class="fas fa-user"></i></a></div>
+                <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+        </div>
+        <div class="line2">
+            <div class="nav_slide">
+                <ul>
+                    <li><a href="./html/info.html">戲劇資訊</a></li>
+                    <li><a href="./html/comment.html">戲劇評論</a></li>
+                    <li><a href="./html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="./html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="./html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="./html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <div class="banner owl-carousel owl-theme">
+        <div class="pic" data-merge="1"><a class="banner01 item" href="./html/info_1.html"><img src=".//img/mac01.jpg" alt="banner" class="move01"></div></a>
+        <div class="pic" data-merge="1"><a class="banner02 item" href="./html/info_1.html"><img src=".//img/banner_macbeth01.jpg" alt="banner"></div></a>
+        <div class="pic" data-merge="1"><a class="banner01 item" href="./html/info_1.html"><img src=".//img/mac03.jpg" alt="banner" class="move02"></div></a>
+    </div>
+    <!-- main -->
+    <div class="main container">
+        <div class="ticket_wrap">
+            <div class="quick_buy">
+                <h3><a href="./html/buy_tickets.html">快速訂票</a></h3>
+                <form class="quick_innerBlock">
+                    <select>
+                        <option value="1">--請選擇劇場--</option>
+                        <option value="3">國家戲劇院</option>
+                        <option value="2">台北城市舞台</option>
+                        <option value="4">公館水源劇場</option>
+                        <option value="5">台北藝術大學</option>
+                    </select>
+                    <select>
+                        <option value="1">--請選擇劇名--</option>
+                        <option value="2">大家安靜</option>
+                        <option value="3">夾縫轍痕</option>
+                        <option value="4">馬克白</option>
+                        <option value="5">半島風聲 相放伴</option>
+                        <option value="6">第十二夜</option>
+                    </select>
+                    <select>
+                        <option value="1">--請選擇場次--</option>
+                        <option value="3">午場</option>
+                        <option value="4">晚場</option>
+                    </select>
+                    <select>
+                        <option value="1">--請選擇數量--</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="4">3</option>
+                        <option value="5">4</option>
+                    </select>
+                    <input class="datepicker" value="--請選擇日期--">
+                    <!-- <div class="seat">--請選擇座位--</div> -->
+                </form>
+                <button class="bt_buyTicket" type="submit">快速訂票</button>
+            </div>
+            <div class="ticket_news_partition"> 
+            </div>
+            <!-- news -->
+            <div class="news">
+                <h3><a href="#">最新消息</a></h3>
+                <div class="news_innerBlock">
+                    <div class="news_hot_flex">
+                        <h4>2020/05/29</h4>
+                        <p class="news_hot_border">new</p>
+                    </div>
+                    <a href="#">
+                        <p>入館消息 因應疫情發展，即日起入館需配戴口罩,且體溫測量須低於攝氏37.5度方可入館</p>
+                    </a>
+                    <hr>
+                </div>
+                <div class="news_innerBlock">
+                    <div class="news_hot_flex">
+                        <h4>2020/05/29</h4>
+                        <p class="news_hot_border">hot</p>
+                    </div>
+                    <a href="#">
+                        <p>信用卡購票優惠公告</p>
+                    </a>
+                    <hr>
+                </div>
+                <div class="news_innerBlock">
+                    <h4>2020/05/29</h4>
+                    <a href="#">
+                        <p>網路開放訂票小叮嚀</p>
+                    </a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <div class="title_icon"><i class="fas fa-info-circle"></i></div>
+            <h2><a href="#">戲劇資訊</a></h2>
+        </div>
+        <div class="info_option">
+            <a href="#"><div>名人推薦</div></a>
+            <a href="#"><div>本月熱賣</div></a>
+            <a href="#"><div>近期戲劇</div></a>
+        </div>
+        <!-- info_wrap -->
+        <div class="info_wrap">
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/bequite.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        <p>
+                        本劇講述的是一個細緻精巧的劇中劇舞台故事，一個劇團正在排演新戲，從前台到幕後，演員間的矛盾、三角關係，讓一切漸漸失控……
+                        </p>
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>大家安靜</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/crack01.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        《夾縫轍痕》的故事圍繞著高唱著傳統捕魚歌曲的兩人開始，描繪一群與自然共存且熱愛歌唱的男人們，真誠而率性的姿態。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>夾縫轍痕</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/mac02.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        三個神祕的女子對馬克白預言了他的未來，充滿惶恐和期待的馬克白，下一步該怎麼走？
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>馬克白</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/peninsula.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        半島冊店是一切故事的開始，小小的文具店，讓三個女人的生命匯聚在一起。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>半島風聲 相放伴</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/No.12_night.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        故事主要敘述了幾個相關人物的愛情故事。整個故事圍繞著偽裝、幻覺、隱藏的身分等主題發展。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>No.12_night</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/Play Games.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        《play games》以一對母女看似甜蜜的遊戲出發，一位是隨時間變老的女兒，另一位則是五歲之後便停止長大的母親。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>Play Games</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/Hsinying01.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        《新營，快到了2》再次投入新營地區的人文田野，重返新營地區的開發歷史、新聞事件、公共藝術、宮廟文化等。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>新營快到了 2</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/venus.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        小說描寫了一個男人懷著對穿裘皮的維納斯示愛的夢想的故事。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>穿著裘皮的維納斯</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+            <div class="info_items" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="info_block">
+                    <a href="./html/info_1.html">
+                        <img src="./img/yearn01.jpg" alt="">
+                    </a>
+                    <div class="info_text">
+                        《香絲‧相思》的命名是擷取相思樹(又名香絲)相思之意，依托故事主人翁的相思之情。
+                    </div>
+                </div>
+                <a href="./html/info_1.html">
+                    <h3>香絲相思</h3>
+                </a>
+                <a href="./html/info_1.html">
+                    <div class="buy_now">立即訂票</div>
+                </a>
+            </div>
+        </div>
+        <div class="more"><a href="#">more</a></div>
+        <!-- commercial -->
+        <div class="title">
+            <div class="title_icon"><i class="fas fa-eye"></i></div>
+            <h2><a href="#">近期上映</a></h2>
+        </div>
+        <div class="commercial_block">
+            <div class="commercial_pic">
+                <a href="./html/info_1.html"><img src="./img/garbage.jpg" alt="">
+                </a>
+            </div>
+            <div class="commercial_pic">
+                <a href="./html/info_1.html"><img src="./img/44612.jpg" alt="">
+                </a>
+            </div>
+            <div class="commercial_pic">
+                <a href="./html/info_1.html"><img src="./img/goods.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- comment -->
+        <div class="title">
+            <div class="title_icon"><i class="fas fa-comments"></i></div>
+            <h2><a href="./html/comment.html">戲劇評論</a></h2>
+        </div>
+        <div class="comment_wrap">
+            <div class="comment_block" data-aos="flip-left" data-aos-duration="1000">
+                <a href="./html/comment_1.html" class="comment_pic">
+                    <img src="./img/comment許仁豪.jpg" alt="">
+                </a>
+                <h3>許仁豪</h3>
+                <p class="author_info">國立中山大學劇場藝術學系助理教授</p>
+                <div class="comment_text_block">
+                    <div class="comment_time">2020/05/30</div>
+                    <h3 class="comment_title"><a href="./html/comment_1.html">大遷徙時代的家庭生活《媳婦的廚房守則》</a></h3>
+                    <p class="comment_text">編導謝淑靖用一個家庭倫理通俗劇的方式，來處理「當代全球化邏輯下多元文化碰撞」的嚴肅議題，固然值得稱許，但是不論從情節安排ヽ人物設計以及場面調度來說，目前的處理都難免令人有重重拿起、輕輕放下的感受。（許仁豪）</p>
+                </div>
+                <div class="read_more"><a href="./html/comment_1.html">詳全文</a></div>
+            </div>
+            <div class="comment_block comment_bgc02" data-aos="flip-left" data-aos-duration="1000">
+                <a href="./html/comment_1.html" class="comment_pic">
+                    <img src="./img/comment張又升.jpg" alt="">
+                </a>
+                <h3>張又升</h3>
+                <p class="author_info">劇場及舞蹈配樂，聲音藝術及劇場評論</p>
+                <div class="comment_text_block">
+                    <div class="comment_time">2020/05/30</div>
+                    <h3 class="comment_title"><a href="./html/comment_1.html">字譯的虐戀──《穿裘皮的維納斯》的在地化問題</a></h3>
+                    <p class="comment_text">為了回到（他們想像的）原始脈絡，不得不保留閱讀和聆聽上的痛苦，只求費心達意之後的歡愉和崇高。與其說這是一種異國情調的追求，不如說是一種經典或原典的崇拜，導演自虐之餘也虐人，可謂獨虐虐不如眾虐虐。（張又升）</p>
+                </div>
+                <div class="read_more"><a href="./html/comment_1.html">詳全文</a></div>
+            </div>
+            <div class="comment_block" data-aos="flip-left" data-aos-duration="1000">
+                <a href="./html/comment_1.html" class="comment_pic">
+                    <img src="./img/comment張敦智.jpg" alt="">
+                </a>
+                <h3>張敦智</h3>
+                <p class="author_info">編劇、文學創作、評論、戲劇顧問</p>
+                <div class="comment_text_block">
+                    <div class="comment_time">2020/05/30</div>
+                    <h3 class="comment_title"><a href="./html/comment_1.html">若當代劇本開始顯得過時，或許值得欣喜《Play Games》（南村版）</a></h3>
+                    <p class="comment_text">身為導演及演出團隊，其義務可能艱難地包括了，在那被劇本隱蔽的範圍，設法，哪怕一點點也好，向觀眾提出更多寫實線索以供參考、指認、猜測與激盪。如此一來，觀眾才不至於發現，演出／劇本竟因為過於單純，而與己身經驗認知存在著清楚時差。（張敦智）</p>
+                </div>
+                <div class="read_more"><a href="./html/comment_1.html">詳全文</a></div>
+            </div>
+        </div>
+        <div class="more"><a href="#">more</a></div>
+        <!-- prduct -->
+        <div class="title">
+            <div class="title_icon"><i class="fas fa-shopping-bag"></i></div>
+            <h2><a href="./html/peripheral_products.html">週邊商品</a></h2>
+        </div>
+        <h3 class="inner_title">耳罩式耳機聯名款</h3>
+        <div class="product_wrap">
+            <div class="product_block" data-aos="fade-up" data-aos-duration="500">
+                <div class="product_hot">hot</div>
+                <a href="./html/peripheral_products.html">
+                    <img src="./img/headphone01.jpg" alt="">
+                </a>
+                <div class="product_text">AKG N90Q 黑色 旗艦 耳罩式抗噪耳機</div>
+                <div class="product_info">
+                    <div class="money">
+                        <div>$</div>
+                        <div>3,990</div>
+                    </div>
+                </div>
+                <div class="amount_block">
+                    <div class="count">
+                        <button class="count_bt">-</button>
+                        <div class="amount">1</div>
+                        <button class="count_bt">+</button>
+                    </div>
+                </div>
+                <div class="shop_chart">
+                    <a href="#">
+                        <button class="chart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div>加入購物車</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="product_block" data-aos="fade-up" data-aos-duration="500">
+                <div class="product_hot">hot</div>
+                <a href="./html/peripheral_products.html">
+                    <img src="./img/headphone02.jpg" alt="">
+                </a>
+                <div class="product_text">SENNHEISER MOMENTUM Wireless</div>
+                <div class="product_info">
+                    <div class="money">
+                        <div>$</div>
+                        <div>1,390</div>
+                    </div>
+                </div>
+                <div class="amount_block">
+                    <div class="count">
+                        <button class="count_bt">-</button>
+                        <div class="amount">1</div>
+                        <button class="count_bt">+</button>
+                    </div>
+                </div>
+                <div class="shop_chart">
+                    <a href="#">
+                        <button class="chart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div>加入購物車</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="product_block" data-aos="fade-up" data-aos-duration="500">
+                <div class="product_hot">hot</div>
+                <a href="./html/peripheral_products.html">
+                    <img src="./img/headphone03.jpg" alt="">
+                </a>
+                <div class="product_text">SENNHEISER HD 800 經典旗艦款</div>
+                <div class="product_info">
+                    <div class="money">
+                        <div>$</div>
+                        <div>3,390</div>
+                    </div>
+                </div>
+                <div class="amount_block">
+                    <div class="count">
+                        <button class="count_bt">-</button>
+                        <div class="amount">1</div>
+                        <button class="count_bt">+</button>
+                    </div>
+                </div>
+                <div class="shop_chart">
+                    <a href="#">
+                        <button class="chart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div>加入購物車</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="product_block" data-aos="fade-up" data-aos-duration="500">
+                <div class="product_hot">hot</div>
+                <a href="./html/peripheral_products.html">
+                    <img src="./img/headphone01.jpg" alt="">
+                </a>
+                <div class="product_text">AKG N90Q 黑色 旗艦 耳罩式抗噪耳機</div>
+                <div class="product_info">
+                    <div class="money">
+                        <div>$</div>
+                        <div>3,990</div>
+                    </div>
+                </div>
+                <div class="amount_block">
+                    <div class="count">
+                        <button class="count_bt">-</button>
+                        <div class="amount">1</div>
+                        <button class="count_bt">+</button>
+                    </div>
+                </div>
+                <div class="shop_chart">
+                    <a href="#">
+                        <button class="chart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div>加入購物車</div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="more more_last"><a href="#">more</a></div>
+    </div>
+        <!-- footer -->
+    <footer class="footer">
+        <div class="footer_wrap">
+            <div class="footer_icon">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contect">
+                <div class="phone">聯絡電話 : (03)425-7387</div>
+                <div class="email">Email : service@tibame.com</div>
+                <div class="copyright">
+                    <a href="./index.html">
+                        <em class="em_play">Play</em><em class="em_ticket">Ticket</em>
+                    </a>&nbsp;&nbsp;&copy;&nbsp;copyright
+                </div>
+            </div>
+            <div class="sub">
+                <form class="sub">
+                    <input type="text" placeholder="請輸入email">
+                    <button type="submit">訂閱</button>
+                </from>
+                <div>免費訂閱電子報</div>
+            </div>
+        </div>
+        <button type="button" class="gotop">top</button>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/de2e8520b2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./vendors/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./vendors/pickadate.js-3.6.2/lib/picker.js"></script>
+    <script src="./vendors/pickadate.js-3.6.2/lib/picker.date.js"></script>
+    <script src="./js/all.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

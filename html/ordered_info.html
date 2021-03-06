@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayTicket</title>
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/ordered_info.css">
+    <link rel="stylesheet" href="../css/hamburger.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="line1">
+            <div class="logo"><a href="../index.html"><img src="../img/logo0528.png" alt="logo"></a></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="../html/info.html">戲劇資訊</a></li>
+                    <li><a href="../html/comment.html">戲劇評論</a></li>
+                    <li><a href="../html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="../html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="../html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="../html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger hamburger--elastic">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+            <div class="header_icon">
+                <div><a href="#"><i class="fas fa-search"></i></a></div>
+                <div><a href="#"><i class="fas fa-user"></i></a></div>
+                <div><a href="#"><i class="fas fa-shopping-cart"></i></a></div>
+            </div>
+        </div>
+        <div class="line2">
+            <div class="nav_slide">
+                <ul>
+                    <li><a href="../html/info.html">戲劇資訊</a></li>
+                    <li><a href="../html/comment.html">戲劇評論</a></li>
+                    <li><a href="../html/buy_tickets.html">直接購票</a></li>
+                    <li><a href="../html/ordered_info.html">訂單查詢</a></li>
+                    <li><a href="../html/peripheral_products.html">周邊商品</a></li>
+                    <li><a href="../html/cooperation.html">合作劇場</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <div class="main">
+        <div class="title">
+            <div class="title_icon"><i class="far fa-list-alt"></i></div>
+            <h2><a href="">訂單查詢</a></h2>
+        </div>
+        <div class="wrap">
+            <div class="notice">
+                <h3>注意事項</h3>
+                <p>請先登入會員，在進行訂單查詢</p>
+            </div>
+            <div class="switch">
+                <div class="option">
+                    <div class="member">會員登入</div>
+                    <div class="ordered">訂單查詢</div>
+                </div>
+                <div class="member-ordered">
+                    <form class="member_login">
+                        <h3>會員登入</h3>
+                        <div class="account">
+                            <div class="account_num">帳號：</div>
+                            <input type="text" placeholder="請輸入帳號" required>
+                        </div>
+                        <div class="password">
+                            <div class="password_num">密碼：</div>
+                            <input type="password" placeholder="請輸入密碼" required>
+                        </div>
+                        <div class="member_bt">
+                            <button type="submit" class="login_bt">會員登入</button>
+                        </div>
+                        <div class="forget">
+                            <div class="forget_ac">忘記帳號</div>
+                            <div class="forget_pw">忘記密碼</div>
+                        </div>
+                    </form>
+                    <form class="ordered_search">
+                        <h3>訂單查詢</h3>
+                        <div class="order_num_block">
+                            <div class="order_num">訂單號：</div>
+                            <input type="text" placeholder="請輸入訂單編號" required>
+                        </div>
+                        <div class="verification">
+                            <div class="verification_num">驗證碼：</div>
+                            <input type="text" placeholder="請輸入驗證碼" required>
+                        </div>
+                        <div class="random_num">我是亂數驗證碼</div>
+                        <div class="the_bt">
+                            <button type="submit" class="send_bt">送出</button>
+                            <button type="reset" class="clear_bt">清除</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="order_info_block">
+                <div class="order_info_pic"><img src="../img/bequite0.jpg" alt=""></div>
+                <div class="order_info">
+                    <h3>大家安靜</h3>
+                    <div class="order_inner">
+                        <div>
+                            <div>地點 : 台北城市舞台</div>
+                            <div>劇名 : 大家安靜</div>
+                            <div>日期 : 2020/07/10</div>
+                            <div>場次 : 晚上七點三十分</div>
+                            <div>數量 : 1張</div>
+                            <div>座位 : A1</div>
+                        </div>
+                        <div class="qr_code"><a href="../img/qrcode.png" target="_blank"><img src="../img/qrcode.png" alt="qrcode"></a></div>
+                    </div>
+                    <div class="iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.577291855827!2d121.54930651475547!3d25.048415483965655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abc254332c1f%3A0x2dc6f7b682fc0168!2z5Z-O5biC6Iie5Y-w!5e0!3m2!1szh-TW!2stw!4v1591066129371!5m2!1szh-TW!2stw" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <div class="address">地址 : 臺北市 松山區 八德路三段25號</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_wrap">
+            <div class="footer_icon">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="contect">
+                <div class="phone">聯絡電話:(03)425-7387</div>
+                <div class="email">Email : service@tibame.com</div>
+                <div class="copyright">
+                    <a href="../index.html">
+                        <em class="em_play">Play</em><em class="em_ticket">Ticket</em>
+                    </a>&nbsp;&nbsp;&copy;&nbsp;copyright
+                </div>
+            </div>
+            <div class="sub">
+                <form class="sub">
+                    <input type="text" placeholder="請輸入email">
+                    <button type="submit">訂閱</button>
+                </from>
+                <div>免費訂閱電子報</div>
+            </div>
+        </div>
+        <button type="button" class="gotop">top</button>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/de2e8520b2.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/ordered_info.js"></script>
+</body>
+</html>
